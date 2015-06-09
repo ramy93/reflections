@@ -1,0 +1,10 @@
+#### Lesson 2  #### 
+
+Initializing a repository
+
+Initial commit will appear if there is no other commit
+
+Untracked files will appear (all files in the directory that you created a new repository)
+
+
+Staging area- area where you can add files to be added into a commit
