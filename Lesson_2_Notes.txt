@@ -16,3 +16,13 @@ git status       will check the status of your repository, ex. what is in the st
 git commit [file]  will create a commit
 
 ##THIS LINE IS FOR TEST 
+
+ git diff will compare working directory and staging area.
+No arguments are added after git diff. This is often done when
+You are making changes and wanna see what the difference is 
+Between staging area and your newly edited files. NOTE: staging
+Area is a snapshot of the most recent commit.
+
+git diff --staged    will check the difference between staging area and most recent commit. 
+This is done after you add your changes to your staging area and before commit. 
+This checks if what you're about to commit is really what you want to commit. SEE PICTURE BELOW (ONENOTE)
