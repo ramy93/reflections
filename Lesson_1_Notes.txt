@@ -1,0 +1,17 @@
+How to: Change/Setup bash custoom prompt (PS1)
+
+http://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html
+
+See bash_profile_course for things I pasted into .bash_profile
+
+IN ~ directory, .bash_profile has a lot of control of terminal
+
+
+git diff commit1 commit2        : checks out difference between commits
+
+
+git checkout  commit    : this will make the commit number you input the most recent commit
+*** REMEMBER TO SAVE THE NUMBER OF THE MOST RECENT COMMIT BEFORE USING GIT CHECKOUT
+
+
+
