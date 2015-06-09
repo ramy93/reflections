@@ -15,3 +15,28 @@ git checkout  commit    : this will make the commit number you input the most re
 
 
 
+#### Lesson 2  #### 
+
+Initializing a repository
+
+Initial commit will appear if there is no other commit
+
+Untracked files will appear (all files in the directory that you created a new repository)
+
+
+Staging area- area where you can add files to be added into a commit 
+
+
+git init  - create initial repository
+
+git add - add to staging area
+
+git status - check the status of this staging area?
+
+
+
+Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
+A: It is different because it is an intermediary area 
+
+
+### This line is for testing purposes ####
