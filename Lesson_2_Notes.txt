@@ -7,7 +7,7 @@ Initial commit will appear if there is no other commit
 Untracked files will appear (all files in the directory that you created a new repository)
 
 
-Staging area- area where you can add files to be added into a commit
+Staging area- area where you can add files to be added into a commit. It is also a copy of most recent commit
 
 git add [file]   will add file to staging area
 
@@ -15,4 +15,4 @@ git status       will check the status of your repository, ex. what is in the st
 
 git commit [file]  will create a commit
 
-##THIS LINE IS FOR TEST ##
+##THIS LINE IS FOR TEST 
