@@ -8,3 +8,11 @@ Untracked files will appear (all files in the directory that you created a new r
 
 
 Staging area- area where you can add files to be added into a commit
+
+git add [file]   will add file to staging area
+
+git status       will check the status of your repository, ex. what is in the staging area, what is untracked
+
+git commit [file]  will create a commit
+
+##THIS LINE IS FOR TEST ##
