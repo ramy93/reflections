@@ -42,3 +42,7 @@ git checkout [commit_id]
 git checkout -b [new_branch_name]
 
 now you will have a new branch named new_branch_name with commit_id as the most recent commit. 
+
+git branch [branch_a] [branch_b] merges two branches together? 
+
+git show   compares a commit to its parent. This is useful after a merge, as often commits compared to the previous commit might be comparing gits that came from different branches
