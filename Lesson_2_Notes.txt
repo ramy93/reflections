@@ -46,3 +46,43 @@ now you will have a new branch named new_branch_name with commit_id as the most 
 git branch [branch_a] [branch_b] merges two branches together? 
 
 git show   compares a commit to its parent. This is useful after a merge, as often commits compared to the previous commit might be comparing gits that came from different branches
+
+
+BELOW IS A SNIPPET OF MY COMMAND LINE
+I atempted to merge master into easy-mode after making modifications to master that I wanted in easy mode
+there was a problem with part of the code that git could not fix on its own, that is why I had to go into 
+the code and see what parts were causing the merging conflict. Then i simply proceeded to: git add game.js  
+
+ramy93 (master) asteroids $ git checkout easy-mode
+Switched to branch 'easy-mode'
+ramy93 (easy-mode) asteroids $ git merge master easy-mode
+Auto-merging game.js
+CONFLICT (content): Merge conflict in game.js
+Automatic merge failed; fix conflicts and then commit the result.
+ramy93 (easy-mode *+|MERGING) asteroids $ git status
+On branch easy-mode
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+
+	both modified:   game.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+ramy93 (easy-mode *+|MERGING) asteroids $ git add game.js
+ramy93 (easy-mode +|MERGING) asteroids $ git status
+On branch easy-mode
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+
+Changes to be committed:
+
+	modified:   game.js
+
+ramy93 (easy-mode +|MERGING) asteroids $ git commit game.js
+fatal: cannot do a partial commit during a merge.
+ramy93 (easy-mode +|MERGING) asteroids $ git commit
+[easy-mode 5adbe19] Merge branch 'master' into easy-mode
+ramy93 (easy-mode) asteroids $ 
+
