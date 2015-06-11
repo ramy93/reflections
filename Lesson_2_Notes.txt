@@ -33,3 +33,12 @@ git branch will list all the branches currently, signifying which is open in gre
 Then to check out a new branch, use:  git checkout [name of branch]
 
 To delete a branch:  git branch -d [name of branch]
+
+
+If you want to checkout a previous commit in a log and perhaps make changes to that commit without impacting the more recent commits you can do this:
+
+git checkout [commit_id]
+
+git checkout -b [new_branch_name]
+
+now you will have a new branch named new_branch_name with commit_id as the most recent commit. 
