@@ -18,3 +18,14 @@ git pull origin master
 NOTE: TO CLONE ANY repository from github to my local machine: git clone [url] as shown below 
 
 git clone https://github.com/ramy93/recipes.git 
+
+
+
+When to use forks, clones and branches:
+
+Well a branch is just part of my local repository. It is a branch out of my master.
+A fork is when I want to take someone's github and want to make changes of my own.
+When I fork on github, the file is now in my github account. I can use git to clone it 
+onto my local storage and make changes to it from there. IT WILL ONLY MAKE CHANGES TO 
+MY FORK, though. Clones can be used to transfer from local machine to local machine, from
+github to local machine. But from github to github, fork should be used.
