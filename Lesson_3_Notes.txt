@@ -29,3 +29,24 @@ When I fork on github, the file is now in my github account. I can use git to cl
 onto my local storage and make changes to it from there. IT WILL ONLY MAKE CHANGES TO 
 MY FORK, though. Clones can be used to transfer from local machine to local machine, from
 github to local machine. But from github to github, fork should be used.
+
+
+When you want to update the local copy of your remote branch, use git fetch origin
+
+THESE STATEMENTS ARE EQUIVALENT
+
+git fetch origin           ———————————>    git pull origin master
+git merge master origin/master  ——————>
+
+the first combo of statements fetches your remote from github and updates your local
+remote (origin/master). Then it merges master with your local remote. The second statement
+pulls origin and merges it into master all at once.
+
+
+GOOGLE fast-forward merge. Not too sure about that one.
+
+
+ON GITHUB —> A pull request is confusing. Really it is a merge request. 
+
+
+
