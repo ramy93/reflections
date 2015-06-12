@@ -1,2 +1,16 @@
 The first reflection I am posting is about adding a file onto github rather than my local git repository. There are
 several reasons why I would do this. For instance, if I want to edit a project but do not have access to my local computer. Or, someone else could be working on a project with me, and would like to add new commits. 
+
+Adding a remote to my local git repository to a newly created github repository:
+
+git remote add [name_of_remote (usually first is called origin?)] [https://github.com/..]
+
+
+to push my master branch into this new remote:
+
+git push origin master
+
+
+to pull content from my remote into my local master branch:
+
+git pull origin master
