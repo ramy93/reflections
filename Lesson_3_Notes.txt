@@ -14,3 +14,7 @@ git push origin master
 to pull content from my remote into my local master branch:
 
 git pull origin master
+
+NOTE: TO CLONE ANY repository from github to my local machine: git clone [url] as shown below 
+
+git clone https://github.com/ramy93/recipes.git 
